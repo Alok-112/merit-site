@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* welcome  */
+.welcome {
+    color: black;
+    background-color: #ffff008a;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    margin-top: 10px;
+}
+
+/* ***************************************************=>NAVBAR<=************************************ */
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10%;
+    background-color: rgb(137 230 233 / 80%);
+}
+
+
+.logo {
+    cursor: pointer;
+
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, o.8);
+}
+
+
+/* ***************************************************=>ROW<=************************************ */
+
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 90vh;
+}
+
+.left,
+.right {
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* ***************************************************=>LEFT COLUMN<=************************************ */
+
+.left_box {
+    margin-top: 0px;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: 'alexandria', sans-serif;
+
+}
+
+.left_box img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ***************************************************=>MIDDLE COLUMN<=************************************ */
+.middle {
+
+    width: 50%;
+    text-align: center;
+    font-size: 21px;
+}
+
+.middle_box {
+    font-family: 'alexandria', sans-serif;
+    text-align: justify;
+    background-color: rgb(249 0 255 / 13%);
+    padding: 0px 100px;
+}
+
+.middle h1 {
+    font-size: 2.8vw;
+    font-family: 'Alexandria', sans-serif;
+}
+
+.middle p {
+    font-size: 1.4vw;
+}
+
+
+/* ***************************************************=>RIGHT COLUMN<=************************************ */
+
+.right_box {
+    background-color: rgb(137 230 233 / 80%);
+    padding-left: 10px;
+}
+
+.right_box h1 {
+    font-size: 3vw;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+
+}
+
+
+.right_box2 {
+
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border: 2px solid darkblue;
+}
+
+.right_box li {
+    list-style-type: square;
+    color: red;
+}
+
+
+
+
+/* *****************************************=>footer=<************************************************************* */
+.footer {
+    margin-top: 3%;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #36241c94;
+    color: white;
+    text-align: center;
+}
